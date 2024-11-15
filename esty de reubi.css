@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: rgba(204, 198, 198, 0.637)
+}
+
+header {
+    background-color: #a23ea560;
+    color: #080808;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+nav {
+    background-color: rgba(134, 85, 141, 0.589);
+}
+nav ul li a {
+    color: #080808;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav ul li {
+    display: inline;
+    margin-right: 100px;
+}
+
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+    box-shadow: 0 0 5px rgb(253, 5, 5);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos para el mapa */
+#map {
+    height: 10px; /* Ajusta la altura según sea necesario */
+    
+}
+
+/* Estilos para las redes sociales */
+.redes-sociales {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+
+
+
+
+.redes-sociales {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+.social-btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    
+}
+.social-btn:hover {
+    background-color: #1c55aa6c; /* Cambia el color de fondo al pasar el mouse */
+    
+}
+.facebook {
+    background-color: #3b5998;
+}
+.twitter {
+    background-color: #1da1f2;
+}
+.instagram {
+    background-color: #e4405f;
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="ESTILO.css">
+    
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Electorlando</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicio.html">Servicios</a></li>
+                    <li><a href="formulario.html">Contacto</a></li>
+                    <li><a href="reubi.html">Redes Sociales / Mapa</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <body background="c:\Users\Usuario\Downloads\cuidad de fondo.png"></body>
+    <h1>SOLICITUD DE SERVICIO A DOMICILIO</h1>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div class="form-group">
+            <label for="direccion">Direccion:</label>
+            <input type="text" id="direccion" name="direccion" required>
+        </div>
+        <div class="form-group">
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+        </div>
+       
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <div class="checkbox-group">
+            <label>Forma de pago:</label><br>
+            <input type="checkbox" id="interes1" name="interes[]" value="Mercado Pago">
+            <label for="interes1">Mercado Pago</label><br>
+            <input type="checkbox" id="interes2" name="interes[]" value="Efectivo">
+            <label for="interes2">Efectivo</label><br>
+            <input type="checkbox" id="interes3" name="interes[]" value="Otro">
+            <label for="interes3">Otro</label><br>
+        </div>
+        <div class="form-group">
+            
+            <label for="localidad">Localidad:</label>
+            <select id="localidad" name="localidad">
+                <option value="Paso de la Patria">Paso de la Patria</option>
+                <option value="San Cosme">San Cosme</option>
+                <option value="San Luis del Palmar">San Luis del Palmar</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </div>
+        
+        <button type="submit">Enviar</button>
+        
+    </form>
+    
+</body>
+
+</html>
